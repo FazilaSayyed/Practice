@@ -1,8 +1,8 @@
 locals {
-    key_name = "id-rsa"
+    key_name = "aws"
 } 
 locals {
-    instance_type = "id-rsa"
+    instance_type = "t3.micro"
 } 
 locals {
    vpc_cidr = "10.0.0.0/16"
