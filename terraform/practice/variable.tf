@@ -5,7 +5,7 @@ variable "instance_type" {
     default = "t3-micro"
 } 
 variable "key_name" {
-    default = "aws-key"
+    default = "aws"
 } 
 variable "mysg" {
     default = "sg-0172a65f910111ff6"
