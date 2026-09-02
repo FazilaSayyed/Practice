@@ -53,7 +53,7 @@ resource "aws_instance" "myinstance" {
   key_name = var.key_name
   subnet_id = aws_subnet.mypubsub.id
 
-  vpc_security_group_ids = [aws_security_group.mysg.id]
+  vpc_security_group_ids = [mysg]
   
 
    tags = {
