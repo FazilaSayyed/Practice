@@ -44,7 +44,7 @@ resource "aws_route_table" "myroute" {
 
 resource "aws_route_table_association" "sub_associate" {
     subnet_id = aws_subnet.mypubsub.id
-    route-table_id = aws_route_table.myroute.id
+    route_table_id = aws_route_table.myroute.id
 }
 
 resource "aws_instance" "myinstance" {
