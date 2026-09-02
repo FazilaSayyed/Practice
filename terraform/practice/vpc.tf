@@ -51,7 +51,7 @@ resource "aws_instance" "myinstance" {
   ami = "ami-var.myami"
   instance_type = "var.instance_type"
   key_name = "var.key_name"
-  vpc_security_group_ids = "var.mysg"
+  vpc_security_group_ids = [var.mysg]
   subnet_id = aws_subnet.mypubsub.id
    
 }   
