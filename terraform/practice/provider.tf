@@ -1,4 +1,3 @@
-provider "aws" {
-  region     = "eu-north-1"
-  
+variable "region" {
+  default = "eu-north-1"
 }
