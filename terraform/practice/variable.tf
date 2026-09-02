@@ -14,5 +14,5 @@ variable "project_name" {
     default = "ec2_vpc"
 }
 variable "region" {
-    default = "eu-north-1b "
+    default = "eu-north-1"
 }   
