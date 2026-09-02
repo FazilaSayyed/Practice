@@ -48,9 +48,9 @@ resource "aws_route_table_association" "sub_associate" {
 }
 
 resource "aws_instance" "myinstance" {
-  ami = "var.myami"
-  instance_type = "var.instance_type"
-  key_name = "var.key_name"
+  ami = var.myami
+  instance_type = var.instance_type
+  key_name = var.key_name
   vpc_security_group_ids = [var.mysg]
   subnet_id = aws_subnet.mypubsub.id
    
