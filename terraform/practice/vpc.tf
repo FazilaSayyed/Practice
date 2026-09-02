@@ -47,7 +47,7 @@ resource "aws_route_table_association" "sub_associate" {
     route-table_id = aws_route_table.myroute.id
 }
 
-resource "aws_instance" "myec2" {
+resource "aws_instance" "myinstance" {
   ami = "ami-var.myami"
   instance_type = "var.instance_type"
   key_name = "var.key_name"
