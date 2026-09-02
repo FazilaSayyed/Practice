@@ -9,7 +9,7 @@ output "instance_arn" {
 
 
 output "gateway_id" {
-  value = aws_internet_gateway.igw.id
+  value = aws_internet_gateway.myigw.id
 }
 
 output "route_table_id" {

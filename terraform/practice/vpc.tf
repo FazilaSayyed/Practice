@@ -38,7 +38,7 @@ resource "aws_route_table" "myroute" {
     vpc_id = aws_vpc.myvpc.id
     route {
         cidr_block = local.route
-        gateway_id = aws_internet_gateway.igw.id
+        gateway_id = aws_internet_gateway.myigw.id
     }
 }
 
