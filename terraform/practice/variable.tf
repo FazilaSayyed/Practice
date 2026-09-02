@@ -2,7 +2,7 @@ variable "myami" {
     default = "ami-0aba19e56f3eaec05"
 } 
 variable "instance_type" {
-    default = "t3-micro"
+    default = "t3.micro"
 } 
 variable "key_name" {
     default = "aws"
