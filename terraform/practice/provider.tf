@@ -1,3 +1,3 @@
-variable "region" {
-  default = "eu-north-1"
+provider "aws" {
+  region = var.region
 }
