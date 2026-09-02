@@ -8,7 +8,7 @@ variable "key_name" {
     default = "aws"
 } 
 variable "mysg" {
-    default = "sg-0172a65f910111ff6"
+    default = [sg-0172a65f910111ff6]
 }
 variable "project_name" {
     default = "ec2_vpc"
